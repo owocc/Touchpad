@@ -1,0 +1,8 @@
+# Binaries and build artifacts
+bin/
+dist/
+.nsgo/
+*.exe
+*.apk
+*.dmg
+*.dex

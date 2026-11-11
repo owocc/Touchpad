@@ -1,0 +1,19 @@
+name: Touchpad
+id: dev.oneo.touchpad
+version: 1.0.0
+
+android:
+  permissions:
+    - INTERNET
+    - ACCESS_NETWORK_STATE
+    - ACCESS_WIFI_STATE
+    - CHANGE_WIFI_MULTICAST_STATE
+    - VIBRATE
+    - WAKE_LOCK
+    - HIGH_SAMPLING_RATE_SENSORS
+    - FOREGROUND_SERVICE
+
+apple:
+  info:
+    NSLocalNetworkUsageDescription: "Touchpad uses the local network to send low-latency multi-touch events to your Mac or PC."
+    CADisableMinimumFrameDurationOnPhone: "true"
